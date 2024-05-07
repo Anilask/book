@@ -1,0 +1,2 @@
+curl --location 'http://localhost:8080/home' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwidXNlclR5cGUiOiJhZG1pbiIsImV4cCI6MTcxNTE0MTAwM30.73SwH6LoR4zWD5VpRJ_7yuT1YVLKeNVs9g-tNDeiATM'

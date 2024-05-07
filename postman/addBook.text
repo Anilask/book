@@ -1,0 +1,8 @@
+curl --location 'http://localhost:8080/addBook' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwidXNlclR5cGUiOiJhZG1pbiIsImV4cCI6MTcxNTE0MDY5OX0.KuKTk6ePD5LqglsKS8Tou55eeACDEX_WcTWPCr5Yl0M' \
+--header 'Content-Type: application/json' \
+--data '{
+    "name": "New Book Title",
+    "author": "Author Name",
+    "publicationYear": 2022
+}'
